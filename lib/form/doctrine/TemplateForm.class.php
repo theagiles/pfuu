@@ -12,5 +12,7 @@ class TemplateForm extends BaseTemplateForm
 {
   public function configure()
   {
+    $this->widgetSchema['name']=new  sfWidgetFormInputText(array(),array("class"=>"form-control"));
+   $this->useFields(['name','description','prefix']); 
   }
 }

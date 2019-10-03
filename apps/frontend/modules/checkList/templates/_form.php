@@ -49,12 +49,7 @@
       <?php echo $form['responsible_id']->renderError() ?>
     </div>
 
-    <div class="form-group col-md-12 <?php echo $form['original_threshold']->hasError() ? 'has-error': '' ?>">
-     <?php echo $form['original_threshold'] ?>
-      <span class="bar"></span>
-      <?php echo $form['original_threshold']->renderLabel() ?>
-      <?php echo $form['original_threshold']->renderError() ?>
-    </div>
+  
 
       <div class="form-group col-md-12 <?php echo $form['status']->hasError() ? 'has-error': '' ?>">
         <?php echo $form['status'] ?>
