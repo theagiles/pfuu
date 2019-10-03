@@ -103,7 +103,7 @@
                                             <div class="u-img"><img src="/images/users/1.jpg" alt="user"></div>
                                             <div class="u-text">
                                                 <h4>Steave Jobs</h4>
-                                                <p class="text-muted">varun@gmail.com</p><a href="pages-profile.html" class="btn btn-rounded btn-danger btn-sm">View Profile</a></div>
+                                                <p class="text-muted">varun@gmail.com</p><a href="<?php echo url_for("/logout") ?>" class="btn btn-rounded btn-danger btn-sm">salir</a></div>
                                         </div>
                                     </li>
                                 </ul>
